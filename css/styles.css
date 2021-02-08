@@ -10269,14 +10269,14 @@ header.masthead .masthead-heading {
 }
 
 
-@media (min-width: 992px) {
+@media (max-width: 992px) {
   .case-study {
     margin: 1rem 0;
     padding:1rem;
   }
 
-  .case-study p {
-  width: 100%;
+    .case-study p {
+  width: 70%;
   }
 
   .container-body img {
