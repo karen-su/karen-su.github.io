@@ -10173,6 +10173,7 @@ header.masthead .masthead-heading {
   header.masthead .masthead-heading {
     font-size: 4.5rem;
     font-weight: 700;
+    letter-spacing: 0.125rem;
     line-height: 4.5rem;
     margin-bottom: 4rem;
   }
@@ -10207,7 +10208,7 @@ header.masthead .masthead-heading {
 }
 
 .case-study p {
-  width: 63.5%;
+  width: 60%;
 }
 
 .case-study-header {
