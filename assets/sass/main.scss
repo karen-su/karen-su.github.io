@@ -201,7 +201,10 @@
 		line-height: 1.5em;
 		font-weight: bold;
 		text-transform: uppercase;
-		color: _palette(accent2)
+		color: _palette(accent2);
+		margin-top: 3rem;
+		margin-bottom: 1rem;
+		
 	}
 
 	h5 {
@@ -209,6 +212,8 @@
 		line-height: 1.5em;
 		font-weight: bold;
 		text-transform: uppercase;
+		margin-top: 3rem;
+		margin-bottom: 1rem;
 	}
 
 	h6 {
