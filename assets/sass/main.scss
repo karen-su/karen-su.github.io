@@ -2269,3 +2269,9 @@
 	  .screens {
 		  width: 70%;
 	  }
+
+	  .col-3 {
+		@include breakpoint('<=small') {
+			width: 100% !important;
+		}
+	  }
