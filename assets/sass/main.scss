@@ -2076,7 +2076,7 @@
 					text-decoration: none;
 
 					&:hover {
-						color: inherit !important;
+						color: _palette(accent2) !important;
 					}
 
 					&:first-child {
@@ -2240,6 +2240,10 @@
 
 	  .m-0 {
 		  margin: 0;
+	  }
+	  
+	  .b-1 {
+		  border: 1px solid lightgrey;
 	  }
 
 	  .p-2 {
