@@ -288,6 +288,7 @@ input, select, textarea {
 		flex-wrap: wrap;
 		box-sizing: border-box;
 		align-items: stretch;
+		width: 100%;
 	}
 
 		.row > * {
@@ -1261,11 +1262,16 @@ input, select, textarea {
 
 		@media screen and (max-width: 736px) {
 
+			.column {
+				width: 100%;
+			}
+
 			.row {
 				display: flex;
 				flex-wrap: wrap;
 				box-sizing: border-box;
 				align-items: stretch;
+				width: 100%;
 			}
 
 				.row > * {
@@ -1505,6 +1511,10 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 480px) {
+
+			.column{
+				width: 100%;
+			}
 
 			.row {
 				display: flex;
@@ -4287,3 +4297,45 @@ img {
 .center {
 	text-align: center;
 }
+
+.right {
+	text-align: right;
+}
+
+@media screen and (max-width: 1280px) { 
+
+	.iframe-home {
+
+		width: 400px;
+		height: 400px;
+	}
+}
+
+@media screen and (max-width: 980px) { 
+
+	.iframe-home {
+
+		width: 400px;
+		height: 400px;
+	}
+
+	.animation {
+	flex-direction: column-reverse;
+	text-align: center;
+	}
+}
+
+@media screen and (max-width: 736px) { 
+
+	.iframe-home {
+
+		width: 250px;
+		height: 250px;
+	}
+
+	.animation {
+	flex-direction: column-reverse;
+	text-align: center;
+	}
+}
+
