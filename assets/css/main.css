@@ -3482,7 +3482,7 @@ input, select, textarea {
 		@media screen and (max-width: 980px) {
 
 			.wrapper {
-				padding: 4em 3em 2em 3em ;
+				padding: 2em;
 			}
 
 		}
@@ -4282,10 +4282,13 @@ input, select, textarea {
 
 
 .youtube {
-	margin: 30px;
 	text-align: center;
 }
 
+.screens {
+	height: 400;
+	width: 700;
+}
 .spacer {
 	margin: 10em;
 }
@@ -4313,9 +4316,14 @@ img {
 
 @media screen and (max-width: 980px) { 
 
-	.iframe-home {
+	.iframe-home, .youtube {
 
 		width: 400px;
+		height: 400px;
+	}
+
+	.youtube {
+		width: 600px;
 		height: 400px;
 	}
 
@@ -4331,6 +4339,11 @@ img {
 
 		width: 250px;
 		height: 250px;
+	}
+
+	.youtube {
+		width: 300px;
+		height: 200px;
 	}
 
 	.animation {
